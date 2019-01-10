@@ -5,3 +5,48 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+.img{
+    width: 480px;
+}
+
+nav
+{
+    background: red;/*rgb(255,255,255);*/
+    /* position:fixed; */
+    height:120px;
+    width:100%;
+}
+
+
+.logoslack
+{
+    height: 90px;
+}
+.burger{
+    height:5vh;
+
+}
+.flexNav{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+    
+    
+}
+
+
+header{
+    /* background: blue; */
+    color:#5b5e6d;
+}
+.flexHeader{
+    
+    flex-wrap: wrap-reverse;
+    display: flex;
+    justify-content: space-around;
+    /* align-content: strech; */
+    
+    
+}
